@@ -90,9 +90,12 @@ export const RESUME_DATA = {
         alcohol research, specializing in bioinformatics, tissue tracking, and data integration across species and experimental\
         protocols. Technologies: Django, Python, Docker, PostgresSQL",
     },
-    {company: "",
+    { 
+      company: "",
+      link: "",
       badges: [],
       title: "Teaching Assistant",
+      logo: ParabolLogo,
       start: "2020",
       end: "Present",
       description: "Assisted courses in C++ and Python Programming, Computer Architecture, Computing and Computer Fundaments, and Algorithms,\
