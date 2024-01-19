@@ -34,7 +34,7 @@ export const RESUME_DATA = {
     I have an ability to learn new concepts and technologies quickly with a consistent record of meeting project deadlines. \
      ",
   avatarUrl:"https://avatars.githubusercontent.com/u/36014522?v=4",
-  personalWebsiteUrl: "https://jeonbik.com",
+  personalWebsiteUrl: "https://cv-psi-two.vercel.app/",
   contact: {
     email: "om.jeon1@gmail.com",
     tel: "+16154148571",
