@@ -90,7 +90,7 @@ export const RESUME_DATA = {
         alcohol research, specializing in bioinformatics, tissue tracking, and data integration across species and experimental\
         protocols. Technologies: Django, Python, Docker, PostgresSQL",
     },
-    {
+    {company: "",
       badges: [],
       title: "Teaching Assistant",
       start: "2020",
