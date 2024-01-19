@@ -1,6 +1,6 @@
-![cv](https://cv-psi-two.vercel.app/)
+![Alt text](src/images/logos/Resume.png "a resume")
 
-# Minimalist CV [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FBartoszJarocki%2Fcv)
+# Minimalist CV [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fjeonbik%2Fcv)
 
 Simple web app that renders minimalist CV with print-friendly layout.
 
