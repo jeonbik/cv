@@ -18,6 +18,7 @@ import {
   YearProgressLogo,
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+import { GoogleScholarIcon } from "@/components/icons/GoogleScholarIcon";
 
 export const RESUME_DATA = {
   name: "Bikram Khanal",
@@ -48,6 +49,11 @@ export const RESUME_DATA = {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/jeonbik/",
         icon: LinkedInIcon,
+      },
+      {
+        name: "Scholar",
+        url: "https://scholar.google.com/citations?user=C4B0q1IAAAAJ&hl=en&oi=ao",
+        icon: GoogleScholarIcon,
       },
       {
         name: "X",
