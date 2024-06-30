@@ -111,8 +111,8 @@ export const RESUME_DATA = {
     },
   ],
   skills: [
-    "Python",
-    "Latex",
+    "Large Language Models",
+    "Prompt Engineering",
     "Machine Learning",
     "Deep Learning",
     "Natural Language Processing",
@@ -124,11 +124,45 @@ export const RESUME_DATA = {
     "Qiskit",
     "Pennylane",
     "Quantum Algorithms",
+    "Python",
+    "Latex",
     "Django",
-    "Large Language Models",
+    "AWS",
+    "git",
     "Docker",
   ],
   projects: [
+    {
+      title: "A Modified Depolarization Approach for Efficient Quantum Machine Learning",
+      techStack: [
+        "Quantum Computing",
+        "Noisy Channels",
+        "Quantum Machine Learning",
+        " Quantum-Classical optimization",
+      ],
+      description: "A modified representation for a single-qubit depolarization channel using two Kraus operators based only on X and Z Pauli matrices.",
+      logo: ConsultlyLogo,
+      link: {
+        label: "Modified Depolarization Channel",
+        href: "https://www.mdpi.com/2227-7390/12/9/1385",
+      },
+    },
+    {
+      title: "Quantum-Enhanced Representation Learning: A Quanvolutional Autoencoder Approach against DDoS Threats",
+      techStack: [
+        "Quantum Computing",
+        "Qiskit",
+        "Quantum Machine Learning",
+        " Quantum-Classical optimization",
+      ],
+      description: "A quantum-circuit based DDoS attacks analysis on time-series data.",
+      logo: ConsultlyLogo,
+      link: {
+        label: "DDoS attacks analysis on time-series data",
+        href: "https://www.mdpi.com/2504-4990/6/2/44",
+      },
+    },
+  
     {
       title: "Noise Evaluation on Variational Circuits",
       techStack: [
@@ -158,12 +192,12 @@ export const RESUME_DATA = {
       problem via Amplitude amplification technique using universal gates.",
       logo: ConsultlyLogo,
       link:{
-        label: "Grovers Algorithm",
+        label: "Grover's Algorithm",
         href: "https://ieeexplore.ieee.org/abstract/document/9798970",
       },
       },
       {
-        title: "Supercomputing levaraging Quantum machine learning",
+        title: "Supercomputing leveraging Quantum machine learning",
         techStack: [
           "Grover's Algorithm",
           "Oracle Design",
@@ -174,7 +208,7 @@ export const RESUME_DATA = {
         AND, XOR, and OR gates.",
         logo: ConsultlyLogo,
         link:{
-          label: "SuperComputring",
+          label: "SuperComputing",
           href: "https://link.springer.com/article/10.1007/s11227-022-04923-4",
         },
         },
@@ -184,7 +218,7 @@ export const RESUME_DATA = {
       title: "Kernels and Quantum Machine Learning",
       techStack: [
         "Quantum Machine Learning",
-        "Clasical and Quantum Kernels",
+        "Classical and Quantum Kernels",
         "Kernel Methods",
         "Reproducing Kernel Hilbert Space",
         "Quantum Computing",
@@ -248,18 +282,18 @@ export const RESUME_DATA = {
         },
         },
         {
-          title: "Adverserial example generation using white-box attach on text embedding",
+          title: "Adversarial example generation using white-box attach on text embedding",
           techStack: [
             "Large Language Models",
             "Natural Language Processing",
             "Word Embeddings",
-            "Adverserial Training",
+            "Adversarial Training",
             "Latent Representation Perturbation",
           ],
           description: "A white-box adversarial attack on text embedding vectors through encoder-decoder model to generate adversarial examples.",
           logo: ConsultlyLogo,
           link:{
-            label: "SAdverserial example",
+            label: "Adversarial example",
             href: "https://www.rivas.ai/pdfs/sooksatra2022adversarial.pdf",
           },
           },
