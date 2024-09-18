@@ -1,0 +1,26 @@
+[
+  {
+    "title": "A Modified Depolarization Approach for Efficient Quantum Machine Learning",
+    "authors": "Bikram Khanal, et al.",
+    "journal": "Mathematics",
+    "year": 2024,
+    "doi": "10.3390/math12091385",
+    "url": "https://www.mdpi.com/2227-7390/12/9/1385"
+  },
+  {
+    "title": "Quantum-Enhanced Representation Learning: A Quanvolutional Autoencoder Approach against DDoS Threats",
+    "authors": "Bikram Khanal, et al.",
+    "journal": "Quantum Reports",
+    "year": 2024,
+    "doi": "10.3390/quantum6020044",
+    "url": "https://www.mdpi.com/2504-4990/6/2/44"
+  },
+  {
+    "title": "Sample Publication Title",
+    "authors": "John Doe, Jane Smith, Bikram Khanal",
+    "journal": "Journal of Example Studies",
+    "year": 2023,
+    "doi": "10.1234/example.2023.001",
+    "url": "https://example.com/publication"
+  }
+]

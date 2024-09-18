@@ -19,6 +19,9 @@ import {
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 import { GoogleScholarIcon } from "@/components/icons/GoogleScholarIcon";
+// Remove the import for PublicationIcon as it's not defined yet
+
+import publicationsData from './publications.json';
 
 export const RESUME_DATA = {
   name: "Bikram Khanal",
@@ -84,6 +87,17 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "Amazon.com Inc",
+      link: "https://www.amazon.com",
+      badges: ["Applied Scientist Intern"],
+      title: "Applied Scientist Intern",
+      logo: ParabolLogo,
+      start: "2024/05",
+      end: "2024/08",
+      description:
+        "Conducted in-depth analysis on Cultural Awareness and Verbosity Bias within Large Language Models (LLMs), assessing their impacts on model performance. Implemented various prompt engineering strategies to enhance the cultural sensitivity and localization of LLM responses. Led initiatives in prompt optimization to effectively reduce verbosity bias. Utilized a robust tech stack including Python, PyTorch, Transformers, and TensorFlow.",
+    },
+    {
       company: "Baylor University",
       link: "https://www.ecs.baylor.edu/research-departments/computer-science",
       badges: ["Graduate Assistant"],
@@ -132,6 +146,34 @@ export const RESUME_DATA = {
     "Docker",
   ],
   projects: [
+    {
+      title: "Learning Robust Observable to Address Noise in Quantum Machine Learning",
+      techStack: [
+        "Quantum Computing",
+        "Quantum Machine Learning",
+        "Robust Observable",
+      ],
+      description: "A framework for learning observables that are robust against noisy channels in quantum systems",
+      logo: ConsultlyLogo,
+      link: {
+        label: "Robust Observable for QML",
+        href: "https://arxiv.org/pdf/2409.07632",
+    }
+  },
+    {
+      title: "Generalization Error Bound for Quantum Machine Learning in NISQ Era--A Survey",
+      techStack: [
+        "Quantum Computing",
+        "Quantum Machine Learning",
+        "Generalization Bound",
+      ],
+      description: "A Systematic Mapping Study (SMS) to explore the state-of-the-art generalization bound for supervised QML in NISQ-era and analyze the latest practices in the field",
+      logo: ConsultlyLogo,
+      link: {
+        label: "Generalization Error Bound for QML",
+        href: "https://arxiv.org/pdf/2409.07626",
+    }
+  },
     {
       title: "A Modified Depolarization Approach for Efficient Quantum Machine Learning",
       techStack: [
@@ -301,4 +343,5 @@ export const RESUME_DATA = {
 
   
   ],
+  publications: publicationsData,
 } as const;
