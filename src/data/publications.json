@@ -1,26 +1,42 @@
 [
   {
-    "title": "A Modified Depolarization Approach for Efficient Quantum Machine Learning",
-    "authors": "Bikram Khanal, et al.",
-    "journal": "Mathematics",
+    "title": "Automated Synthesis of Distributed Code from Sequential Snippets Using Deep Learning",
+    "authors": "Sanjel, A.; Khanal, B.; Rivas, P.; et al.",
+    "journal": "Proceedings of the 2024 IEEE International Conference on Big Data",
     "year": 2024,
-    "doi": "10.3390/math12091385",
-    "url": "https://www.mdpi.com/2227-7390/12/9/1385"
+    "doi": "10.1109/BigData62323.2024.10825977",
+    "url": "https://doi.org/10.1109/BigData62323.2024.10825977"
   },
   {
-    "title": "Quantum-Enhanced Representation Learning: A Quanvolutional Autoencoder Approach against DDoS Threats",
-    "authors": "Bikram Khanal, et al.",
-    "journal": "Quantum Reports",
-    "year": 2024,
-    "doi": "10.3390/quantum6020044",
-    "url": "https://www.mdpi.com/2504-4990/6/2/44"
+    "title": "Data-dependent Generalization Bounds for Parameterized Quantum Models under Noise",
+    "authors": "Khanal, B.; Rivas, P.",
+    "journal": "The Journal of Supercomputing",
+    "year": 2025,
+    "doi": "10.1007/s11227-024-0611-2",
+    "url": "https://link.springer.com/article/10.1007/s11227-024-0611-2"
   },
   {
-    "title": "Sample Publication Title",
-    "authors": "John Doe, Jane Smith, Bikram Khanal",
-    "journal": "Journal of Example Studies",
+    "title": "Learning Robust Observable to Address Noise in Quantum Machine Learning",
+    "authors": "Khanal, B.; Rivas, P.",
+    "journal": "Proceedings of the 3rd International Conference on Emergent Quantum Technologies (ICEQT'24)",
+    "year": 2024,
+    "doi": "10.48550/arXiv.2409.07632",
+    "url": "https://arxiv.org/abs/2409.07632"
+  },
+  {
+    "title": "Generalization Error Bound for Quantum Machine Learning in NISQ Era--A Survey",
+    "authors": "Khanal, B.; Rivas, P.; Sanjel, A.; et al.",
+    "journal": "arXiv preprint arXiv:2409.07626",
+    "year": 2024,
+    "doi": "10.48550/arXiv.2409.07626",
+    "url": "https://arxiv.org/abs/2409.07626"
+  },
+  {
+    "title": "Evaluating the Impact of Noise on Variational Quantum Circuits in NISQ Era Devices",
+    "authors": "Khanal, B.; Rivas, P.",
+    "journal": "Proceedings of the International Conference on Emergent Quantum Technologies (ICEQT 2023)",
     "year": 2023,
-    "doi": "10.1234/example.2023.001",
-    "url": "https://example.com/publication"
+    "doi": "10.1109/ICEQT58733.2023.10487283",
+    "url": "https://ieeexplore.ieee.org/abstract/document/10487283"
   }
 ]
