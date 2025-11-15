@@ -60,10 +60,10 @@ export const RESUME_DATA: {
   summary:
     "Applied Scientist at Amazon with a Ph.D. in Computer Science focused on quantum machine learning and large-language models. I develop noise-aware generalization theory and optimization techniques for near-term quantum hardware while designing transparent, resource-efficient evaluation methods that mitigate locale biases in multilingual conversational systems.",
   avatarUrl: "https://avatars.githubusercontent.com/u/36014522?v=4",
-  personalWebsiteUrl: "https://cv-psi-two.vercel.app/",
+  personalWebsiteUrl: "https://khanal.vercel.app/",
   contact: {
     email: "om.jeon1@gmail.com",
-    tel: "+16154148571",
+    tel: "",
     social: [
       {
         name: "GitHub",
@@ -262,7 +262,7 @@ export const RESUME_DATA: {
         "Designed an LLM-as-a-Judge framework with context engineering and conversational metrics to evaluate and improve localized responses across cultures.",
       link: {
         label: "Locale-aware LLM Evaluation",
-        href: "https://cv-psi-two.vercel.app/",
+        href: "https://khanal.vercel.app/",
       },
     },
     {
