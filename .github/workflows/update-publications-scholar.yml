@@ -1,0 +1,37 @@
+name: Update Publications from Scholar
+
+on:
+  workflow_dispatch:
+
+jobs:
+  scholar-sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Install Playwright browsers
+        run: npx playwright install --with-deps
+
+      - name: Run Scholar scraper
+        env:
+          SCHOLAR_URL: 'https://scholar.google.com/citations?user=C4B0q1IAAAAJ&hl=en&oi=ao'
+        run: |
+          node scripts/fetch-publications-scholar.js
+
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: 'chore: update publications.json from Google Scholar (auto)'
+          file_pattern: 'src/data/publications.json'
+          add_options: '--all'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

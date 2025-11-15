@@ -168,8 +168,41 @@ export default function Page() {
         </Section>
 
         <Section className="print-force-new-page scroll-mb-16">
-          <h2 className="text-xl font-bold">Projects and Publications</h2>
-          <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
+          
+          <div className="mt-4">
+            <h3 className="text-lg font-semibold">
+              Selected Publications (
+              <a
+                href={
+                  RESUME_DATA.contact.social.find((s) => s.name === "Scholar")?.url ??
+                  "https://scholar.google.com/citations?user=C4B0q1IAAAAJ&hl=en&oi=ao"
+                }
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-x-1 text-sm font-medium text-blue-600 hover:underline"
+              >
+                complete list
+              </a>
+              )
+            </h3>
+            <ol className="list-decimal pl-5 space-y-2 mt-2 text-xs text-muted-foreground">
+              {RESUME_DATA.publications.map((pub) => (
+                <li key={(pub as any).doi || (pub as any).title}>
+                  <a
+                    href={(pub as any).url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:underline"
+                  >
+                    {(pub as any).title}
+                  </a>
+                  <span className="text-muted-foreground"> — {(pub as any).journal} ({(pub as any).year})</span>
+                </li>
+              ))}
+            </ol>
+            <div className="mt-5">
+            <h2 className="text-xl font-bold">Projects (Selected)</h2>
+            <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
             {RESUME_DATA.projects.map((project) => {
               return (
                 <ProjectCard
@@ -181,6 +214,8 @@ export default function Page() {
                 />
               );
             })}
+          </div>
+          </div>
           </div>
         </Section>
       </section>

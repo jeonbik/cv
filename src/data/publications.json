@@ -1,42 +1,132 @@
 [
   {
-    "title": "Automated Synthesis of Distributed Code from Sequential Snippets Using Deep Learning",
-    "authors": "Sanjel, A.; Khanal, B.; Rivas, P.; et al.",
-    "journal": "Proceedings of the 2024 IEEE International Conference on Big Data",
-    "year": 2024,
-    "doi": "10.1109/BigData62323.2024.10825977",
-    "url": "https://doi.org/10.1109/BigData62323.2024.10825977"
+    "title": "Exploring muzzle biometrics: a deep learning framework for noninvasive cattle recognition",
+    "authors": "Arun Sanjel; Bikram Khanal; Pablo Rivas; Greg Speegle",
+    "journal": "Imaging Science: Computer Vision, Image and Signal Processing, Pattern Recognition",
+    "volume": 3,
+    "pages": "239",
+    "year": 2025,
+    "publisher": "Walter de Gruyter GmbH & Co KG",
+    "url": "https://ieeexplore.ieee.org/abstract/document/11052389"
   },
   {
-    "title": "Data-dependent Generalization Bounds for Parameterized Quantum Models under Noise",
-    "authors": "Khanal, B.; Rivas, P.",
+    "title": "Learning Robust Observable to Address Noise in Quantum Machine Learning",
+    "authors": "Bikram Khanal; Pablo Rivas",
+    "journal": "Communications in Computer and Information Science",
+    "year": 2025,
+    "doi": "10.1007/978-3-031-85884-0_4",
+    "url": "https://doi.org/10.1007/978-3-031-85884-0_4"
+  },
+  {
+    "title": "Data-dependent generalization bounds for parameterized quantum models under noise",
+    "authors": "Bikram Khanal; Pablo Rivas",
     "journal": "The Journal of Supercomputing",
     "year": 2025,
-    "doi": "10.1007/s11227-024-0611-2",
-    "url": "https://link.springer.com/article/10.1007/s11227-024-0611-2"
+    "doi": "10.1007/s11227-025-06966-9",
+    "url": "https://doi.org/10.1007/s11227-025-06966-9"
   },
   {
-    "title": "Learning Robust Observable to Address Noise in Quantum Machine Learning",
-    "authors": "Khanal, B.; Rivas, P.",
-    "journal": "Proceedings of the 3rd International Conference on Emergent Quantum Technologies (ICEQT'24)",
-    "year": 2024,
-    "doi": "10.48550/arXiv.2409.07632",
-    "url": "https://arxiv.org/abs/2409.07632"
+    "title": "NLP-Guided Synthesis: Transitioning from Sequential Programs to Distributed Programs",
+    "authors": "Arun Sanjel; Bikram Khanal; Greg Speegle; Pablo Rivas",
+    "journal": "Communications in Computer and Information Science",
+    "year": 2025,
+    "doi": "10.1007/978-3-031-85856-7_17",
+    "url": "https://doi.org/10.1007/978-3-031-85856-7_17"
   },
   {
-    "title": "Generalization Error Bound for Quantum Machine Learning in NISQ Era--A Survey",
-    "authors": "Khanal, B.; Rivas, P.; Sanjel, A.; et al.",
-    "journal": "arXiv preprint arXiv:2409.07626",
+    "title": "Chapter 11 Exploring muzzle biometrics: a deep learning framework for noninvasive cattle recognition",
+    "authors": "Arun Sanjel; Bikram Khanal; Pablo Rivas; Greg Speegle",
+    "journal": "Imaging Science",
+    "year": 2025,
+    "doi": "10.1515/9783111436425-011",
+    "url": "https://doi.org/10.1515/9783111436425-011"
+  },
+  {
+    "title": "A Modified Depolarization Approach for Efficient Quantum Machine Learning",
+    "authors": "Bikram Khanal; Pablo Rivas",
+    "journal": "Mathematics",
     "year": 2024,
-    "doi": "10.48550/arXiv.2409.07626",
-    "url": "https://arxiv.org/abs/2409.07626"
+    "doi": "10.3390/math12091385",
+    "url": "https://doi.org/10.3390/math12091385"
+  },
+  {
+    "title": "Automated Synthesis of Distributed Code from Sequential Snippets Using Deep Learning",
+    "authors": "Arun Sanjel; Bikram Khanal; Pablo Rivas; Greg Speegle",
+    "journal": "2024 IEEE International Conference on Big Data (BigData)",
+    "year": 2024,
+    "doi": "10.1109/bigdata62323.2024.10825464",
+    "url": "https://doi.org/10.1109/bigdata62323.2024.10825464"
+  },
+  {
+    "title": "Quantum-Enhanced Representation Learning: A Quanvolutional Autoencoder Approach against DDoS Threats",
+    "authors": "Pablo Rivas; Javier Orduz; Tonni Das Jui; Casimer DeCusatis; Bikram Khanal",
+    "journal": "Machine Learning and Knowledge Extraction",
+    "year": 2024,
+    "doi": "10.3390/make6020044",
+    "url": "https://doi.org/10.3390/make6020044"
+  },
+  {
+    "title": "Generalization error bound for quantum machine learning in NISQ era—a survey",
+    "authors": "Bikram Khanal; Pablo Rivas; Arun Sanjel; Korn Sooksatra; Ernesto Quevedo; Alejandro Rodriguez",
+    "journal": "Quantum Machine Intelligence",
+    "year": 2024,
+    "doi": "10.1007/s42484-024-00204-w",
+    "url": "https://doi.org/10.1007/s42484-024-00204-w"
   },
   {
     "title": "Evaluating the Impact of Noise on Variational Quantum Circuits in NISQ Era Devices",
-    "authors": "Khanal, B.; Rivas, P.",
-    "journal": "Proceedings of the International Conference on Emergent Quantum Technologies (ICEQT 2023)",
+    "authors": "Bikram Khanal; Pablo Rivas",
+    "journal": "2023 Congress in Computer Science, Computer Engineering, &amp;amp; Applied Computing (CSCE)",
     "year": 2023,
-    "doi": "10.1109/ICEQT58733.2023.10487283",
-    "url": "https://ieeexplore.ieee.org/abstract/document/10487283"
+    "doi": "10.1109/csce60160.2023.00272",
+    "url": "https://doi.org/10.1109/csce60160.2023.00272"
+  },
+  {
+    "title": "Supercomputing leverages quantum machine learning and Grover’s algorithm",
+    "authors": "Bikram Khanal; Javier Orduz; Pablo Rivas; Erich Baker",
+    "journal": "The Journal of Supercomputing",
+    "year": 2023,
+    "doi": "10.1007/s11227-022-04923-4",
+    "url": "https://doi.org/10.1007/s11227-022-04923-4"
+  },
+  {
+    "title": "Non-Invasive Muzzle Matching for Cattle Identification Using Deep Learning",
+    "authors": "Arun Sanjel; Bikram Khanal; Pablo Rivas; Greg Speegle",
+    "journal": "2023 Congress in Computer Science, Computer Engineering, &amp;amp; Applied Computing (CSCE)",
+    "year": 2023,
+    "doi": "10.1109/csce60160.2023.00328",
+    "url": "https://doi.org/10.1109/csce60160.2023.00328"
+  },
+  {
+    "title": "Attribution Scores of BERT-Based SQL-Query Automatic Grading for Explainability",
+    "authors": "Korn Sooksatra; Bikram Khanal; Pablo Rivas; Donald R. Schwartz",
+    "journal": "2023 International Conference on Computational Science and Computational Intelligence (CSCI)",
+    "year": 2023,
+    "doi": "10.1109/csci62032.2023.00039",
+    "url": "https://doi.org/10.1109/csci62032.2023.00039"
+  },
+  {
+    "title": "On Adversarial Examples for Text Classification By Perturbing Latent Representations",
+    "authors": "Korn Sooksatra; Pablo Rivas; Bikram Khanal",
+    "journal": "LatinX in AI at Neural Information Processing Systems Conference 2022",
+    "year": 2022,
+    "doi": "10.52591/lxai202211284",
+    "url": "https://doi.org/10.52591/lxai202211284"
+  },
+  {
+    "title": "Human Activity Classification Using Basic Machine Learning Models",
+    "authors": "Bikram Khanal; Pablo Rivas; Javier Orduz",
+    "journal": "2021 International Conference on Computational Science and Computational Intelligence (CSCI)",
+    "year": 2021,
+    "doi": "10.1109/csci54926.2021.00093",
+    "url": "https://doi.org/10.1109/csci54926.2021.00093"
+  },
+  {
+    "title": "Quantum Machine Learning: A Case Study of Grover’s Algorithm",
+    "authors": "Bikram Khanal; Pablo Rivas; Javier Orduz; Alibek Zhakubayev",
+    "journal": "2021 International Conference on Computational Science and Computational Intelligence (CSCI)",
+    "year": 2021,
+    "doi": "10.1109/csci54926.2021.00088",
+    "url": "https://doi.org/10.1109/csci54926.2021.00088"
   }
 ]

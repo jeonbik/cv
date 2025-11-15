@@ -1,3 +1,23 @@
+
+import {
+  AmbitLogo,
+  BarepapersLogo,
+  BimLogo,
+  CDGOLogo,
+  ClevertechLogo,
+  ConsultlyLogo,
+  EvercastLogo,
+  Howdy,
+  JarockiMeLogo,
+  JojoMobileLogo,
+  Minimal,
+  MobileVikingsLogo,
+  MonitoLogo,
+  NSNLogo,
+  ParabolLogo,
+  TastyCloudLogo,
+  YearProgressLogo,
+} from "@/images/logos";
 import type { ComponentType, ReactNode } from "react";
 
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
@@ -58,11 +78,11 @@ export const RESUME_DATA: {
   locationLink: "https://maps.google.com/?q=Bellevue,+WA",
   about: "Applied Scientist advancing quantum machine learning and culturally aware language models.",
   summary:
-    "Applied Scientist at Amazon with a Ph.D. in Computer Science focused on quantum machine learning and large-language models. I develop noise-aware generalization theory and optimization techniques for near-term quantum hardware while designing transparent, resource-efficient evaluation methods that mitigate locale biases in multilingual conversational systems.",
+    "I am an Applied Scientist at Amazon with a Ph.D. in Computer Science, specializing in quantum machine learning and large‑language models. I develop noise‑aware generalization theory and efficient optimization techniques for quantum machine learning on near‑term quantum hardware. I also design transparent and resource-efficient methods for evaluating language models, with a focus on mitigating locale biases in multilingual and culturally aware language models, particularly in conversational systems. I enjoy tackling complex problems and working across diverse machine‑learning domains.",
   avatarUrl: "https://avatars.githubusercontent.com/u/36014522?v=4",
   personalWebsiteUrl: "https://khanal.vercel.app/",
   contact: {
-    email: "om.jeon1@gmail.com",
+    email: "general@jeonbik.com",
     tel: "",
     social: [
       {
@@ -130,7 +150,7 @@ export const RESUME_DATA: {
     {
       company: "Amazon.com Inc.",
       link: "https://www.amazon.com",
-      badges: ["Applied Scientist II"],
+      badges: [],
       title: "Applied Scientist II",
       start: "2025/06",
       end: "Present",
@@ -157,7 +177,7 @@ export const RESUME_DATA: {
     {
       company: "Amazon.com Inc.",
       link: "https://www.amazon.com",
-      badges: ["Applied Scientist Intern"],
+      badges: [],
       title: "Applied Scientist Intern",
       start: "2024/05",
       end: "2024/08",
@@ -178,7 +198,7 @@ export const RESUME_DATA: {
     {
       company: "Baylor University",
       link: "https://www.ecs.baylor.edu/research-departments/computer-science",
-      badges: ["Research Assistant"],
+      badges: [],
       title: "Research Assistant",
       start: "2021/06",
       end: "2025/05",
@@ -227,7 +247,7 @@ export const RESUME_DATA: {
     },
     {
       company: "Baylor University",
-      badges: ["Teaching Assistant"],
+      badges: [],
       title: "Teaching Assistant",
       start: "2020/08",
       end: "Present",
@@ -254,6 +274,7 @@ export const RESUME_DATA: {
     "Tools: VS Code, Jupyter, UNIX, PyCharm, Git, Ollama, Hugging Face",
     "Expertise: Optimization, Image Processing, Quantum Machine Learning, LLM Evaluation",
   ],
+  publications: publicationsData,
   projects: [
     {
       title: "Locale- and Culturally-aware Response Generation in LLMs",
@@ -266,55 +287,76 @@ export const RESUME_DATA: {
       },
     },
     {
-      title: "A Modified Depolarization Approach for Efficient Quantum Machine Learning",
-      techStack: ["Quantum Machine Learning", "Depolarization Channels", "NISQ"],
-      description:
-        "Introduced a simplified depolarization channel using two Kraus operators and validated efficiency gains without sacrificing model accuracy.",
+      title: "Generalization Error Bound for Quantum Machine Learning in NISQ Era--A Survey",
+      techStack: [
+        "Quantum Computing",
+        "Quantum Machine Learning",
+        "Generalization Bound",
+      ],
+      description: "A Systematic Mapping Study (SMS) to explore the state-of-the-art generalization bound for supervised QML in NISQ-era and analyze the latest practices in the field",
       link: {
-        label: "Mathematics Journal",
+        label: "Generalization Error Bound for QML",
+        href: "https://arxiv.org/pdf/2409.07626",
+    }
+  },
+    {
+      title: "A Modified Depolarization Approach for Efficient Quantum Machine Learning",
+      techStack: [
+        "Quantum Computing",
+        "Noisy Channels",
+        "Quantum Machine Learning",
+        " Quantum-Classical optimization",
+      ],
+      description: "A modified representation for a single-qubit depolarization channel using two Kraus operators based only on X and Z Pauli matrices.",
+      link: {
+        label: "Modified Depolarization Channel",
         href: "https://www.mdpi.com/2227-7390/12/9/1385",
       },
     },
     {
-      title: "Evaluating the Impact of Noise on Variational Quantum Circuits",
-      techStack: ["Quantum Noise", "Variational Circuits", "Feature Maps"],
-      description:
-        "Analyzed quantum noise effects on NISQ devices and demonstrated resilient quantum classifier designs under varying noise conditions.",
+      title: "Noise Evaluation on Variational Circuits",
+      techStack: [
+        "Quantum Computing",
+        "Qiskit",
+        "Machine Learning",
+        " Quantum-Classical optimization",
+      ],
+      description: "A thorough investigation of noise impact on quantum variational classification in\
+      the NISQ context over diverse dataset.",
       link: {
-        label: "IEEE Xplore",
-        href: "https://ieeexplore.ieee.org/abstract/document/10487283",
+        label: "Noise Evaluation on Variational Circuits",
+        href: "https://www.rivas.ai/pdfs/khanal2023evaluating.pdf",
       },
     },
     {
-      title: "Adversarial Examples for Text Classification",
-      techStack: ["Adversarial ML", "NLP", "PyTorch", "Gradient Optimization"],
-      description:
-        "Generated white-box adversarial examples by perturbing latent representations to evaluate classifier robustness against state-of-the-art attacks.",
-      link: {
-        label: "arXiv",
-        href: "https://arxiv.org/abs/2405.03789",
+      title: "Muzzle Matching for Cattle Identification",
+      techStack: [
+        "Computer Vision",
+        "Image Processing",
+        "Convolutional Neural Networks",
+        "Fraud Detection",
+      ],
+      description: "A non-invasive muzzle matching to address the challenges in\
+      insurance fraud and animal trading markets.",
+      link:{
+        label: "Muzzle Matching for Cattle Identification",
+        href: "https://www.rivas.ai/pdfs/sanjel2023non.pdf",
       },
-    },
-    {
-      title: "Automated Synthesis of Distributed Code from Sequential Snippets",
-      techStack: ["Transformers", "PySpark", "Program Synthesis"],
-      description:
-        "Created datasets up to 100k samples and fine-tuned Transformer models to translate sequential code into PySpark with 99.98% balanced accuracy.",
-      link: {
-        label: "IEEE BigData 2024",
-        href: "https://doi.org/10.1109/BigData62323.2024.10825977",
       },
-    },
-    {
-      title: "Quantum-Enhanced Representation Learning for DDoS Threats",
-      techStack: ["Quantum Computing", "QML", "Time-series Analysis"],
-      description:
-        "Developed a quanvolutional autoencoder pipeline that detects DDoS threats using hybrid quantum-classical techniques.",
-      link: {
-        label: "Machine Learning and Knowledge Extraction",
-        href: "https://www.mdpi.com/2504-4990/6/2/44",
-      },
-    },
+        {
+          title: "Adversarial example generation using white-box attach on text embedding",
+          techStack: [
+            "Large Language Models",
+            "Natural Language Processing",
+            "Word Embeddings",
+            "Adversarial Training",
+            "Latent Representation Perturbation",
+          ],
+          description: "A white-box adversarial attack on text embedding vectors through encoder-decoder model to generate adversarial examples.",
+          link:{
+            label: "Adversarial example",
+            href: "https://www.rivas.ai/pdfs/sooksatra2022adversarial.pdf",
+          },
+          },
   ],
-  publications: publicationsData,
 };
